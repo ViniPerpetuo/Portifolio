@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- GOOGLE FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--FIM GOOGLE FONTES-->
     <!--BOOTSTRAP ICONS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -15,6 +16,7 @@
     <title>Portifólio</title>
 </head>
 <body>
+   
 
     <header>
         <div class="interface">
@@ -27,7 +29,9 @@
         <nav class="menu-desktop">
             <ul>
                 <li><a href="">Início</a></li>
-                <li><a href="">Especialidades</a></li>
+
+                <li><a href="" onclick="navegar('espec')">Especialidades</a></li>
+
                 <li><a href="">Sobre</a></li>
                 <li><a href="">Projetos</a></li>
             </ul>
@@ -52,9 +56,10 @@
                         <p class="paragrafo-maior">Olá, eu sou</p>
                         <h1>VINÍCIUS PERPÉTUO</h1>
                         <h2>Desenvolvedor Front-End</h2>
-                        <p class="paragrafo-menor">Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante, 
-                        funcionalidade intuitiva e otimização para resultados, estou pronto para criar a presença 
-                        online dos seus sonhos <span>.</span></p>
+                        <p class="paragrafo-menor">Criatividade e inovação andam lado a lado. Iniciando na área de Front-End com a ambição de criar designs
+                            nunca vistos antes. Utilizando como base para desenvolvimento, parâmetros como: funcionalidade intuitiva e otimização para resultados.
+                            Meu objetivo principal é criar uma presença online de tirar o fôlego  
+                        <span>.</span></p>
 
                         <div class="btn-contato">
                             <a href="#">
@@ -70,7 +75,7 @@
             </div><!--interface-->
         </section><!--topo-do-site-->
 
-        <section class="especialidades">
+        <section class="especialidades" id="espec">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
                 <div class="flex">
@@ -119,7 +124,7 @@
                         <p>Renekton nasceu para lutar. Desde pequeno, vivia brigando 
                         com as crianças mais velhas, deixando claro que não tinha medo de nada. </p>
                             <div class="btn-social">
-                                <a href="#"><button><i class="bi bi-github"></i></button></a>
+                                <a href="https://github.com/VinihDevFront"><button><i class="bi bi-github"></i></button></a>
                                 <a href="https://www.linkedin.com/in/viniciusperpetuo/"><button><i class="bi bi-linkedin"></i></button></a>
                                 <a href="https://www.instagram.com/vn_perpetuo/"><button><i class="bi bi-instagram"></i></button></a>
                             </div><!--btn-social-->
@@ -169,7 +174,7 @@
                             <span class="logo-text">VN</span>
                     </div><!--logo-footer-->
                     <div class="btn-social">
-                        <a href="#"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://github.com/VinihDevFront"><button><i class="bi bi-github"></i></button></a>
                         <a href="https://www.linkedin.com/in/viniciusperpetuo/"><button><i class="bi bi-linkedin"></i></button></a>
                         <a href="https://www.instagram.com/vn_perpetuo/"><button><i class="bi bi-instagram"></i></button></a>
                     </div><!--btn-social-->
@@ -181,6 +186,6 @@
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>
-    
+     <script type="text/javascript" src="logic.js"></script>
 </body>
 </html>

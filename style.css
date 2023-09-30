@@ -42,7 +42,7 @@ h2.titulo span{
 }
 
 button:hover, form .btn-enviar input:hover{
-    box-shadow: 0px 0px 8px #18b3da;
+    box-shadow: 0px 0px 8px #10cee7;
     transform: scale(1.10);
 }
 
