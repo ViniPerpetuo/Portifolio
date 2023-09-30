@@ -31,6 +31,10 @@ body{
     transition: .2s;
 }
 
+.menu-desktop{
+    cursor: pointer;
+}
+
 h2.titulo{
     color: #fff;
     font-size: 38px;
