@@ -52,6 +52,19 @@ button:hover, form .btn-enviar input:hover{
 
 /* ESTILO DO CABEÇALHO */
 
+.cabeçalho{
+    position: fixed;
+    background-color: #000;
+    z-index: 5000;
+    width: 100%;
+    height: 150px;
+    top: 0px;
+}
+
+main{
+    margin-top: 150px;
+}
+
 .logo-text{
     color: #10cee7;
     font-size: 50px;
